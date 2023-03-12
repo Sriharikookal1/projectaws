@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+   <h1 align="center" style="color:white;"><b>HELLO&nbsp; USER</b></h1>
+   <p><img src="C:\Users\91628\Pictures\Screenshots\w 4 2.png" alt="logo"style="float:right;width:42px;height:42px;">
+</p>
+<style>
+body {
+  background-color: #800000;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=radio], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+    
+  </head>
+  <body>
+      
+   <div class="form-container">
+<form name="registerForm">
+    <label for="firstName"> First name *</label>
+    <input type="text" id="first name" name="firstName" placeholder="John" required/>
+    
+    <label for="lastName">Last name *</label>
+    <input type="text" id="lastName" placeholder="Doe" required/>
+</form>
+</div> 
+<div class="form-container">
+<form name="registerForm">
+    <label for="e-mail">E-mail  address  *</label>
+    <input type="text" id="e-mail" placeholder="john-doe@net.com" required/>
+    <p class="error-message"></p>
+     <label for="bank details">Bank details *</label>
+    <input type="text" id="bank details" placeholder="accnt number" required/>
+</form>
+</div>
+    <div class="form-container">
+    <div class="radio-question">
+        <p>Fields of Interest?</p>
+        <input class="radio-input" type="radio" name="media" value="Technology" />Technology <br>
+        <input class="radio-input" type="radio" name="media" value="agriculture" /> agriculture <br>
+         <input class="radio-input" type="radio" name="media" value="r&d" />r&d <br>
+         <input class="radio-input" type="radio" name="media" value="automobile" /> automobile <br>
+         <input class="radio-input" type="radio" name="media" value="crude oil" /> crude oil <br>
+    </div>
+</div>
+<div class="form-container">
+	<input class="button" type="submit" value="submit" name="submit" onClick="formValidation()" />
+</div>
+
+    
+  </body>
+ 
+</html>
